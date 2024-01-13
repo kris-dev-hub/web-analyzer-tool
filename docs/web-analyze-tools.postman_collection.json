@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "0e3e105a-cabb-4d0a-9619-e6b26b5292cf",
+		"name": "web-analyze-tools",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14022912",
+		"_collection_link": "https://restless-desert-441412.postman.co/workspace/ekatalog~f8b77f31-7c23-449c-994a-56296e9d53d1/collection/14022912-0e3e105a-cabb-4d0a-9619-e6b26b5292cf?action=share&source=collection_link&creator=14022912"
+	},
+	"item": [
+		{
+			"name": "get host ip",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8001/api/hostip/krisdevhub.com",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"hostip",
+						"krisdevhub.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get host ssl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8001/api/hostip/krisdevhub.com",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"hostip",
+						"krisdevhub.com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
