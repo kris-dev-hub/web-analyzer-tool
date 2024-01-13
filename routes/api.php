@@ -21,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/hostip/{host}', [Api\HostIPController::class, 'show']);
+Route::get('/ssldata/{host}', [Api\SSLDataController::class, 'show']);
