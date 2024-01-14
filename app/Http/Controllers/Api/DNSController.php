@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 
-class WhoisController extends Controller
+class DNSController extends Controller
 {
     /**
      * @OA\Get(
